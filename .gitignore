@@ -1,0 +1,52 @@
+# Ignorar archivos y directorios generados por Django
+
+# Directorio de configuración local
+/.env
+
+# Directorio de configuración de desarrollo
+/settings/local.py
+
+# Directorio de migraciones
+/migrations/
+
+# Archivo de base de datos SQLite
+/db.sqlite3
+
+# Archivo de registro de Django
+/*.log
+
+# Archivos estáticos generados
+/staticfiles/
+
+# Directorio de medios generados
+/media/
+
+# Entorno virtual (si se utiliza)
+/venv/
+
+# Otros archivos y directorios generados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*.~
+
+# Dependencias de Python (si se utiliza Pipenv)
+/.venv/
+/Pipfile.lock
+
+# Dependencias de Python (si se utiliza Pip)
+/requirements.txt
+
+# Archivos de IDE y editores de texto comunes
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Otros archivos generados
+.DS_Store
+Thumbs.db
